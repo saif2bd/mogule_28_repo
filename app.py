@@ -33,7 +33,7 @@ def predict_gpa(gender, age, address, famsize,
             'smoker', 'tuition_fee',
             'time_friends', 'ssc_result'
         ]
-    )
+    )git rm appp.py
 
     # Predict
     prediction = model.predict(input_data)[0]
